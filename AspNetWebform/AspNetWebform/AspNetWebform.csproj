@@ -67,73 +67,129 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\Ex001.css" />
-    <Content Include="Ex001.aspx" />
-    <Content Include="Ex002.aspx" />
-    <Content Include="Ex003.aspx" />
-    <Content Include="Ex004.aspx" />
-    <Content Include="Ex005.aspx" />
-    <Content Include="Ex006.aspx" />
-    <Content Include="Ex007.aspx" />
-    <Content Include="Ex008.aspx" />
+    <Content Include="chapter05\Ex001.aspx" />
+    <Content Include="chapter04\css\Ex001.css" />
+    <Content Include="chapter04\Ex001.aspx" />
+    <Content Include="chapter04\Ex002.aspx" />
+    <Content Include="chapter04\Ex003.aspx" />
+    <Content Include="chapter04\Ex004.aspx" />
+    <Content Include="chapter04\Ex005.aspx" />
+    <Content Include="chapter04\Ex006.aspx" />
+    <Content Include="chapter04\Ex007.aspx" />
+    <Content Include="chapter04\Ex008.aspx" />
+    <Content Include="chapter05\Ex002.aspx" />
+    <Content Include="chapter05\Ex003.aspx" />
+    <Content Include="chapter05\Ex004.aspx" />
+    <Content Include="chapter05\Ex005.aspx" />
+    <Content Include="chapter05\Ex006.aspx" />
+    <Content Include="chapter05\Ex007.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ex001.aspx.cs">
+    <Compile Include="chapter05\Ex001.aspx.cs">
       <DependentUpon>Ex001.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex001.aspx.designer.cs">
+    <Compile Include="chapter05\Ex001.aspx.designer.cs">
       <DependentUpon>Ex001.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex002.aspx.cs">
+    <Compile Include="chapter04\Ex001.aspx.cs">
+      <DependentUpon>Ex001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter04\Ex001.aspx.designer.cs">
+      <DependentUpon>Ex001.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter04\Ex002.aspx.cs">
       <DependentUpon>Ex002.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex002.aspx.designer.cs">
+    <Compile Include="chapter04\Ex002.aspx.designer.cs">
       <DependentUpon>Ex002.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex003.aspx.cs">
+    <Compile Include="chapter04\Ex003.aspx.cs">
       <DependentUpon>Ex003.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex003.aspx.designer.cs">
+    <Compile Include="chapter04\Ex003.aspx.designer.cs">
       <DependentUpon>Ex003.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex004.aspx.cs">
+    <Compile Include="chapter04\Ex004.aspx.cs">
       <DependentUpon>Ex004.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex004.aspx.designer.cs">
+    <Compile Include="chapter04\Ex004.aspx.designer.cs">
       <DependentUpon>Ex004.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex005.aspx.cs">
+    <Compile Include="chapter04\Ex005.aspx.cs">
       <DependentUpon>Ex005.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex005.aspx.designer.cs">
+    <Compile Include="chapter04\Ex005.aspx.designer.cs">
       <DependentUpon>Ex005.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex006.aspx.cs">
+    <Compile Include="chapter04\Ex006.aspx.cs">
       <DependentUpon>Ex006.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex006.aspx.designer.cs">
+    <Compile Include="chapter04\Ex006.aspx.designer.cs">
       <DependentUpon>Ex006.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex007.aspx.cs">
+    <Compile Include="chapter04\Ex007.aspx.cs">
       <DependentUpon>Ex007.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex007.aspx.designer.cs">
+    <Compile Include="chapter04\Ex007.aspx.designer.cs">
       <DependentUpon>Ex007.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ex008.aspx.cs">
+    <Compile Include="chapter04\Ex008.aspx.cs">
       <DependentUpon>Ex008.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ex008.aspx.designer.cs">
+    <Compile Include="chapter04\Ex008.aspx.designer.cs">
       <DependentUpon>Ex008.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex002.aspx.cs">
+      <DependentUpon>Ex002.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex002.aspx.designer.cs">
+      <DependentUpon>Ex002.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex003.aspx.cs">
+      <DependentUpon>Ex003.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex003.aspx.designer.cs">
+      <DependentUpon>Ex003.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex004.aspx.cs">
+      <DependentUpon>Ex004.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex004.aspx.designer.cs">
+      <DependentUpon>Ex004.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex005.aspx.cs">
+      <DependentUpon>Ex005.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex005.aspx.designer.cs">
+      <DependentUpon>Ex005.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex006.aspx.cs">
+      <DependentUpon>Ex006.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex006.aspx.designer.cs">
+      <DependentUpon>Ex006.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter05\Ex007.aspx.cs">
+      <DependentUpon>Ex007.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter05\Ex007.aspx.designer.cs">
+      <DependentUpon>Ex007.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -146,6 +202,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
